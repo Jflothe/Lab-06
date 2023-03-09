@@ -5,14 +5,13 @@ def encode(password):
         encoded_p = encoded_p + str(num)
     return encoded_p
 
-"""
+
 def decode(p):
     decoded_p = ""
     for num in str(p):
         num = int(num) - 3
         decoded_p = decoded_p + str(num)
     return decoded_p
-"""
 
 def print_menu():
     print("Menu")
