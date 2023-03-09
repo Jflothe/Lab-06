@@ -13,10 +13,12 @@ def decode(p):
         decoded_p = decoded_p + str(num)
     return decoded_p
 
+
 def print_menu():
     print("Menu")
     print("-------------")
     print("1. Encode", "\n2. Decode", "\n3. Quit")
+
 
 def main():
     while True:
@@ -35,9 +37,6 @@ def main():
         else:
             print("That is not a valid option. Try again")
         print()
-
-
-
 
 
 if __name__ == "__main__":
